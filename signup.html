@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="shortcut icon" href="quiz_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script>
+        // JavaScript validation for the form
+        function validateForm() {
+            const username = document.getElementById('username').value;
+            const name = document.getElementById('name').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            const checkbox = document.getElementById('checkbox');
+
+            // Check if all fields are filled
+            if (username === "" || name === "" || password === "" || confirmPassword === "") {
+                alert("All fields must be filled out!");
+                return false; // Prevent form submission
+            }
+
+            // Check if passwords match
+            if (password !== confirmPassword) {
+                alert("Passwords do not match!");
+                return false; // Prevent form submission
+            } 
+
+            // Check if terms & conditions checkbox is checked
+            if (!checkbox.checked) {
+                alert("You must agree to the terms and conditions.");
+                return false; // Prevent form submission
+            }
+
+            // If all validations pass, allow form submission
+            return true;
+        }
+
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Sign Up</h1><br>
+        <form onsubmit="return validateForm()" action="./quiz type.html" method="GET">
+            <input id="username" type="text" placeholder="Username" required><br><br>
+            <input id="name" type="text" placeholder="Name" required><br><br>
+            <input id="password" type="password" placeholder="Password" required><br><br>
+            <input id="confirmPassword" type="password" placeholder="Confirm Password" required><br><br>
+
+            <div class="terms">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">
+                    I agree to these
+                    <a href="#">Terms & Condition</a>
+                </label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
