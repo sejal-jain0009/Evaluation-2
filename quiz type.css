@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family-poppins:wght:@300;400;500;600;700;800;900&display=swap");
+/* Reset margins, padding, and box-sizing for a clean layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  
+  /* Style for the entire page */
+  body {
+    font-family: 'Poppins' , sans-serif;
+    background:url(quiz.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  } 
+  
+  /* Container for the quiz options */
+  .container {
+    background-color:  #f0f0f0;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Poppins' , sans-serif;
+  }
+  
+  /* Title */
+  h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Poppins' , sans-serif;
+  }
+  
+  /* Description text */
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    font-family: 'Poppins' , sans-serif;
+  }
+  
+  /* Container for the quiz boxes */
+  .quiz-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Style for each quiz box */
+  .quiz-box {
+    background: url(quiz.jpg);
+    color: white;
+    padding: 50px;
+    width: 30%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Hover effects */
+  .quiz-box:hover {
+    transform: scale(1.05);  /* Slightly enlarge the box */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* More intense shadow */
+  }
+  
+  /* Style for the message */
+  .message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #444;
+  } 
+
+  /* New styles for the Welcome Page button */
+  .welcome-button {
+    background-color: #c40094; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block element */
+    font-size: 16px; /* Font size */
+    margin: 20px 0; /* Margin */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+
+  .welcome-button:hover {
+    background-color: #a60045; /* Darker green on hover */
+  } 
+  

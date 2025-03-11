@@ -1,0 +1,118 @@
+let questions = [
+    {
+        numb: 1,
+        question: "Which instrument is commonly used to tune a guitar?",
+        answer: "B.  Tuner",
+        options: [
+            "A.  Violin" ,
+            "B.  Tuner" ,
+            "C.  Piano" ,
+            "D.  Flute" 
+
+        ] 
+    }, 
+    {
+        numb: 2,
+        question: "Who sang the hit song 'Shape of You'?",
+        answer: "A.  Ed Sheeran",
+        options: [
+            "A.  Ed Sheeran" ,
+            "B.  Justin Bieber" ,
+            "C.  Bruno Mars" ,
+            "D.  Harry Styles" 
+        ] 
+    },
+    {
+        numb: 3,
+        question: "Which of the following is a percussion instrument?",
+        answer: "B.  Drums",
+        options: [
+            "A.  Piano" ,
+            "B.  Drums" ,
+            "C.  Violin" ,
+            "D.  Flute"
+        ] 
+    },
+    {
+        numb: 4,
+        question: "Which string instrument is played with a bow and is commonly found in orchestras?",
+        answer: "B.  Violin",
+        options: [
+            "A.  Harp",
+            "B.  Violin",
+            "C.  Cello",
+            "D.  Mandolin"
+        ]
+    },
+    {
+        numb: 5,
+        question: "Which vocal range is typically the highest for male singers?",
+        answer: "A.  Tenor",
+        options: [
+            "A.  Tenor",
+            "B.  Baritone",
+            "C.  Bass",
+            "D.  Alto"
+        ] 
+    }
+];  
+
+
+let questions = [
+    {
+        numb: 1,
+        question: "What is the process by which plants make their own food using sunlight?",
+        answer: "A.Photosynthesis",
+        options: [
+            "A.Photosynthesis" ,
+            "B.Respiration" ,
+            "C.Germination" ,
+            "D.Transpiration" 
+
+        ] 
+    }, 
+    {
+        numb: 2,
+        question: "Which planet is known as the Red Planet?",
+        answer: "B.Mars",
+        options: [
+            "A.Earth" ,
+            "B.Mars" ,
+            "C.Venus" ,
+            "D.Jupiter" 
+        ] 
+    },
+    {
+        numb: 3,
+        question: "What is the smallest unit of matter?",
+        answer: "B.Nitrogen",
+        options: [
+            "A.Oxygen" ,
+            "B.Nitrogen" ,
+            "C.Carbon Dioxide" ,
+            "D.Hydrogen"
+        ] 
+    },
+    {
+        numb: 4,
+        question: "Which element is represented by the symbol 'O' on the periodic table?",
+        answer: "D.Oxygen",
+        options: [
+            "A.Ozone",
+            "B.Osmium",
+            "C.Opium",
+            "D.Oxygen"
+        ]
+    },
+    {
+        numb: 5,
+        question: "Which of the following is an example of a non-renewable resource?",
+        answer: "C.Coal",
+        options: [
+            "A.Solar energy",
+            "B.Wind energy",
+            "C.Coal",
+            "D.Geothermal energy"
+        ]
+    } 
+];  

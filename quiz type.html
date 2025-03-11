@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Type Selection</title>
+  <link rel="stylesheet" href="quiz type.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Choose Your Quiz</h1> 
+    <p>Select the type of quiz you want to play:</p>
+
+    <div class="quiz-options">
+      <div class="quiz-box" id="musicQuiz">
+        <h2>Music Quiz</h2>
+      </div>
+      <div class="quiz-box" id="studyQuiz">
+        <h2>Science Quiz</h2>
+      </div>
+      <div class="quiz-box" id="codingQuiz">
+        <h2>Coding Quiz</h2> 
+      </div>
+    </div> 
+
+     <!-- New button to go to welcome.html -->
+    <button class="welcome-button" id="welcomePage">Go Back</button>
+    <div id="message" class="message"></div>
+  </div>
+
+  <script>
+    // Select the quiz boxes
+    const musicQuizBtn = document.getElementById('musicQuiz');
+    const studyQuizBtn = document.getElementById('studyQuiz');
+    const codingQuizBtn = document.getElementById('codingQuiz');
+    const welcomePageBtn = document.getElementById('welcomePage'); // New welcome page button
+
+    // Event listeners for each quiz box
+    musicQuizBtn.addEventListener('click', () => {
+      window.location.href = 'music.html'; 
+    });
+
+    studyQuizBtn.addEventListener('click', () => {
+      window.location.href = 'science.html'; // Redirect to home.html
+    });
+
+    codingQuizBtn.addEventListener('click', () => {
+      window.location.href = 'home.html'; // Redirect to home.html
+    });
+
+    // Event listener for the welcome page button
+    welcomePageBtn.addEventListener('click', () => {
+      window.location.href = 'welcome.html'; // Redirect to welcome.html
+    });
+
+  </script> 
+</body>
+</html> 
+
